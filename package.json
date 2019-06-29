@@ -34,9 +34,10 @@
     "portfolio"
   ],
   "scripts": {
-    "dev": "gatsby develop -o",
-    "develop": "gatsby develop",
-    "build": "gatsby build",
+    "dev": "npx gatsby develop -o",
+    "develop": "npx gatsby develop",
+    "build": "npx gatsby build",
+    "deploy": "npx gatsby build --prefix-paths && gh-pages -d public -b master",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
@@ -50,10 +51,11 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.0",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.18.2"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/aniravi24/buzzwordlabscom",
     "type": "git"
   },
   "bugs": {
