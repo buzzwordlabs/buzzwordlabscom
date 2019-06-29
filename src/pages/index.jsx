@@ -104,7 +104,9 @@ const Index = () => (
             <a href="https://www.linkedin.com/in/ethannaluz/">
               Ethan's LinkedIn
             </a>{" "}
-            <a href="https://linkedin.com/aniravichandran">Ani's LinkedIn</a>{" "}
+            <a href="https://www.linkedin.com/aniravichandran">
+              Ani's LinkedIn
+            </a>{" "}
           </ContactText>
         </Inner>
         <Footer>
