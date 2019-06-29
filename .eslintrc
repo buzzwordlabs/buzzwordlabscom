@@ -15,7 +15,8 @@
   "env": {
     "browser": true,
     "node": true,
-    "jquery": true
+    "jquery": true,
+    "es6": true
   },
   "rules": {
     "no-unused-vars": [
@@ -62,7 +63,7 @@
     ],
     "quotes": [
       2,
-      "single",
+      "double",
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
@@ -72,9 +73,9 @@
     "prettier/prettier": [
       "error",
       {
-        "trailingComma": "es5",
-        "semi": false,
-        "singleQuote": true,
+        "trailingComma": "none",
+        "semi": true,
+        "singleQuote": false,
         "printWidth": 120
       }
     ],
