@@ -81,18 +81,18 @@ const Head = props => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>{title}</title>
-      <link rel="apple-icon" href="/favicons/apple-icon.png" />
+      <link rel="apple-icon" href="/apple-icon.png" />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicons/favicon-32x32.png"
+        href="/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicons/favicon-16x16.png"
+        href="/favicon-16x16.png"
       />
       <meta name="gatsby-starter" content="Gatsby Starter Portfolio Cara" />
       <link rel="shortcut icon" href="favicon.ico" />
