@@ -9,8 +9,8 @@ module.exports = {
   siteHeadline: "We make cool things", // Headline for schema.org JSONLD
   siteUrl: "https://buzzwordlabs.com", // Domain of your site. No trailing slash!
   siteLanguage: "en", // Language Tag on <html> element
-  siteLogo: "/favicon.ico", // Used for SEO and manifest
-  siteDescription: "Playful & Colorful One-Page website with Parallax effect",
+  siteLogo: "/favicon-96x96.png", // Used for SEO and manifest
+  siteDescription: "A place where cool things reside",
   author: "aniravi", // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
