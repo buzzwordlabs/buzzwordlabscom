@@ -81,7 +81,7 @@ const Index = () => (
           </ProjectCard>
           <ProjectCard
             title="Startup Graveyard"
-            link="https://www.startupgraveyard.herokuapp.com"
+            link="https://startupgraveyard.herokuapp.com"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             Post-mortem for founders that failed their startups.
