@@ -92,7 +92,7 @@ const Index = () => (
         <Title>About</Title>
         <AboutHero>
           <Avatar src={avatar} alt="Buzzword Labss" />
-          <AboutSub>We make things.</AboutSub>
+          <AboutSub>We make things sometimes.</AboutSub>
         </AboutHero>
         <AboutDesc>More coming soon.</AboutDesc>
       </About>
@@ -101,7 +101,9 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Find us on other platforms:{" "}
-            <a href="https://linkedin.com/aniravichandran">Ethan's LinkedIn</a>{" "}
+            <a href="https://www.linkedin.com/in/ethannaluz/">
+              Ethan's LinkedIn
+            </a>{" "}
             <a href="https://linkedin.com/aniravichandran">Ani's LinkedIn</a>{" "}
           </ContactText>
         </Inner>

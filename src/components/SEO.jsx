@@ -81,7 +81,7 @@ const Head = props => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>{title}</title>
-      <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
+      <link rel="apple-icon" href="/favicons/apple-icon.png" />
       <link
         rel="icon"
         type="image/png"

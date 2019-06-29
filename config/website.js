@@ -17,7 +17,7 @@ module.exports = {
   userTwitter: "@therealAniRavi", // Twitter Username
   ogSiteName: "", // Facebook Site Name
   ogLanguage: "en_US", // Facebook Language
-  googleAnalyticsID: "UA-47519312-5",
+  googleAnalyticsID: "",
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
