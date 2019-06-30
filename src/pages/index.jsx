@@ -101,12 +101,16 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Find us on other platforms:{" "}
-            <a href="https://www.linkedin.com/in/ethannaluz/">
-              Ethan's LinkedIn
-            </a>{" "}
-            <a href="https://www.linkedin.com/aniravichandran">
-              Ani's LinkedIn
-            </a>{" "}
+            <p>
+              <a href="https://www.linkedin.com/in/ethannaluz/">
+                Ethan's LinkedIn
+              </a>{" "}
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/aniravichandran">
+                Ani's LinkedIn
+              </a>{" "}
+            </p>
           </ContactText>
         </Inner>
         <Footer>
