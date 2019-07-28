@@ -102,12 +102,12 @@ const Index = () => (
           <ContactText>
             Find us on other platforms:{" "}
             <p>
-              <a href="https://www.linkedin.com/in/ethannaluz/">
+              <a href="https://www.linkedin.com/in/ethannaluz">
                 Ethan's LinkedIn
               </a>{" "}
             </p>
             <p>
-              <a href="https://www.linkedin.com/aniravichandran">
+              <a href="https://www.linkedin.com/in/aniravichandran">
                 Ani's LinkedIn
               </a>{" "}
             </p>
