@@ -66,7 +66,7 @@ const Index = () => (
           Hi, <br /> We're Ethan and Ani.
         </BigTitle>
         <Subtitle>
-          We're making fun side projects that we want to share with people.
+          We're making products that we want to share with people.
         </Subtitle>
       </Hero>
       <Projects offset={1}>
