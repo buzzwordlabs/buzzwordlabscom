@@ -57,6 +57,8 @@ const Footer = styled.footer`
   ${tw`text-center text-grey absolute pin-b p-6 font-sans text-md lg:text-lg`};
 `;
 
+const now = new Date();
+
 const Index = () => (
   <>
     <Layout />
@@ -114,7 +116,8 @@ const Index = () => (
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{" "}
+          &copy; {now.getFullYear()} Buzzword Labs, Inc. Credit for template
+          goes to Gatsby Starter Portfolio Cara.{" "}
           <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">
             Github Repository
           </a>
