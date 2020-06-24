@@ -75,16 +75,23 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
+            title="FoodFeed"
+            link="https://foodfeed.live"
+            bg="linear-gradient(to right, #f12711 0%, #f5af19 100%)"
+          >
+            Social media for foodies.
+          </ProjectCard>
+          <ProjectCard
             title="Pepper"
             link="https://callpepper.co"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #7f00ff 0%, #e100ff 100%)"
           >
             Hate robocalls? We've got you.
           </ProjectCard>
           <ProjectCard
             title="Startup Graveyard"
             link="https://startupgraveyard.herokuapp.com"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            bg="linear-gradient(to right, #000000 0%, #434343 100%)"
           >
             Post-mortem for founders that failed their startups.
           </ProjectCard>
