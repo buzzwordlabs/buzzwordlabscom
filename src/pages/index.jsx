@@ -88,13 +88,13 @@ const Index = () => (
           >
             Hate robocalls? We've got you.
           </ProjectCard>
-          <ProjectCard
+          {/* <ProjectCard
             title="Startup Graveyard"
             link="https://startupgraveyard.herokuapp.com"
             bg="linear-gradient(to right, #000000 0%, #434343 100%)"
           >
             Post-mortem for founders that failed their startups.
-          </ProjectCard>
+          </ProjectCard> */}
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
